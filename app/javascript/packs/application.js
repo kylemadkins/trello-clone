@@ -22,7 +22,7 @@ document.addEventListener("turbolinks:load", () => {
       data: {
         lists: JSON.parse(element.dataset.lists)
       },
-      template: "<App :lists=\"lists\" />",
+      template: "<App :olists=\"lists\" />",
       components: { App }
     })
   }
